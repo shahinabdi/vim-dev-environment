@@ -1,0 +1,51 @@
+{
+    "suggest.noselect": false,
+    "suggest.enablePreselect": false,
+    "suggest.triggerAfterInsertEnter": true,
+    "suggest.timeout": 5000,
+    "suggest.enablePreview": true,
+    "suggest.floatEnable": true,
+    "suggest.detailField": "preview",
+    "suggest.snippetIndicator": "🔸",
+    
+    "diagnostic.errorSign": "✖",
+    "diagnostic.warningSign": "⚠",
+    "diagnostic.infoSign": "ℹ",
+    "diagnostic.hintSign": "➤",
+    
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "black",
+    
+    "javascript.suggest.enabled": true,
+    "typescript.suggest.enabled": true,
+    
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "prettier.semi": true,
+    "prettier.printWidth": 80,
+    
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+    },
+    
+    "snippets.extends": {
+      "javascriptreact": ["javascript"],
+      "typescriptreact": ["typescript"]
+    },
+    
+    "eslint.autoFixOnSave": true,
+    "coc.preferences.formatOnSaveFiletypes": [
+      "python",
+      "javascript",
+      "typescript",
+      "javascriptreact",
+      "typescriptreact",
+      "json",
+      "css",
+      "html"
+    ]
+  }
